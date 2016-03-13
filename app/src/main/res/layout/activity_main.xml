@@ -7,7 +7,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.andrei.customkeyboard.MainActivity">
+    tools:context="com.example.andrei.customkeyboard.MainActivity"
+    android:background="@drawable/gradient">
 
     <TextView
         android:layout_width="wrap_content"
@@ -16,7 +17,8 @@
         android:id="@+id/textView2"
         android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:textColor="#ffffff" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -25,5 +27,6 @@
         android:id="@+id/textView"
         android:layout_below="@+id/textView2"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="32dp" />
+        android:layout_marginTop="32dp"
+        android:textColor="#ffffff" />
 </RelativeLayout>
